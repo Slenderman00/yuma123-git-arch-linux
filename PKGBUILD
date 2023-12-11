@@ -2,13 +2,13 @@
 # Note: This is only an install script for Yuma123, not the actual project itself.
 
 pkgname=yuma123-git
-pkgver=1.0
+pkgver=latest
 pkgrel=1
 pkgdesc="Open-source YANG API in C and CLI (yangcli) and server (netconfd)"
 arch=('x86_64')
 url="https://github.com/YumaWorks/yuma123"
 license=('BSD')
-depends=('git' 'autoconf' 'automake' 'pkg-config' 'gcc' 'libtool' 'libxml2' 'libssh2' 'make' 'ncurses' 'zlib' 'readline' 'openssl' 'openssh')
+depends=('git' 'autoconf' 'automake' 'make' 'gcc')
 makedepends=()
 provides=("${pkgname%-git}")
 conflicts=("${pkgname%-git}")
